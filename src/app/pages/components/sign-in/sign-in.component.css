@@ -1,0 +1,67 @@
+.background {
+        background-color:#0E1E5B;
+        min-height: 100%;
+              
+        /* Set up proportionate scaling */
+        width: 100%;
+        height: auto;
+              
+        /* Set up positioning */
+        position: fixed;
+        top: 0;
+        left: 0;
+}
+
+
+.card {
+        margin: 10vh; /* Added */
+        margin-left: 35vw;
+        margin-right:35vw;
+        margin-top:5vh;
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+        height: 90vh;
+        width: 30vw;
+        font-family: 'Inter';
+        border-radius: 40%;
+        align-content: center;
+}
+
+.card-title {
+       color: #0E1E5B;
+       font-size: xx-large;
+       text-align: center;
+}
+
+.card-img-top {
+        max-height: 70%;
+        max-width: 70%;
+        height: auto;
+        margin-left:auto;
+        margin-right:auto;
+}
+
+.btn-primary {
+        background-color: #0E1E5B;
+        border-color: #0E1E5B;
+}
+.btn-secondary {
+        background-color: #F6F8FD;
+        border-color: #9CA6CE;
+        color: #0E1E5B;
+        margin-top: 8px;
+}
+
+.forgotPassword {
+        margin-top: 5px;
+        color: #9CA6CE;
+        font-size: 13px;
+        text-align: right;
+}
+
+.redirectToLogin {
+        margin-top: 18px;
+        text-align: center;
+        color: #0E1E5B;
+        font-size: 18px;
+}
